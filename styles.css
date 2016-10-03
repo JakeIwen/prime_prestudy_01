@@ -1,0 +1,143 @@
+html, body {
+background: #181818; font-family: 'Roboto', Times, helvetica, arial, sans-serif; font-size: 16px; color: #222;
+}
+a {
+color: #222;
+text-decoration: none;
+}
+a:hover {
+color: #549E2E;
+text-decoration: none;
+}
+main {
+	background: #ededed;
+}
+header {	
+	border-bottom: 3px solid #549E2E;
+}
+h4 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+}
+ul {
+	list-style-type: circle;
+}
+body {
+	min-width: 495px;
+}
+.container {
+	max-width: 1080px;
+	border-radius: 13px;
+	border: 3px solid #549E2E;
+}
+.name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -20px;
+	margin-left: 8px;
+}
+.name h2 {
+	font-size: 2em;
+	margin-left: 16px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+.item h2 {
+	font-size: 1.7em;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0;
+	padding-left: 4px;
+}
+.item h4 {
+	margin-bottom: 0px;
+	margin-top: 0;
+	margin-left: 10px;
+	font-style: italic;
+}
+hr {
+	border-color: #bbbbbb;
+	border-style: solid none;
+	border-width: 1px 0;
+	margin: 0 0 0.5em 0;
+	width: 80%;
+	margin-left: 11%;
+}
+.contact{
+	padding-top: 8%;
+	padding-left: 10%;
+	padding-right: 10px;
+}
+.contact ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+.address {
+	padding: 5px 0 5px 0;
+}
+.phone {
+	padding-bottom: 10px;
+}
+#headshot {
+	padding: 8px 5px 8px 5px;
+	border-left: 3px solid #549E2E;
+	overflow: hidden;
+	text-align: center;
+}
+#headshot img {
+	width: 80%;
+	max-width: 180px;
+	max-height: 190px;
+	overflow: hidden;
+	border-radius: 10px;
+    margin: 15px 5px 18px 5px;
+    transform: rotate(15deg); 
+    box-shadow: -3px 3px 3px #000;
+}
+.title {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #549E2E;
+}
+.title p {
+	padding-left: 1em;
+}
+.info {
+	padding-top: 1em;
+	padding-right: 12px;
+}
+.info p {
+	padding-left: 19px;
+}
+.skills ul {
+	padding-left: 15px;
+}
+.skills h4 {
+	margin-bottom: 4px;
+	font-weight: 500;
+	font-size: 1.4em;
+}
+.empDate {
+	float: right;
+	padding-right: 8px;
+}
+.softLang {
+	padding-left: 10px;
+}
+.softLang h4{
+	width: 110%;
+	padding-left: 7px;
+}
+#lang {
+	width: 200px;
+	margin-left: 10px;
+}
+.title{
+    color: #549E2E;
+	transition: color 1s ease;
+}
+.title:hover{
+	color: #cf8a05;
+}
